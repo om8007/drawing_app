@@ -1,16 +1,14 @@
 # drawing_app
 
-A new Flutter project.
+Drawing App in Flutter.
 
-## Getting Started
+## Expected Functionality
+- To let users select defferent pen color from ColorChoser Widget
+- As long as pen color is not changed all drawing should be in same color
+- With new pen color chosen, the previous drawing should retain their original color
+- As soon as drawing starts, ColorChoser gets hidden and on complete, ColorChoser is visible again
+- Undo FAB click removes the last draw
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Issues
+- In first draw, the line is not shown as soon as drawn
+- The drawing is laggy, i.e line is not drawn as fast as pen moves
